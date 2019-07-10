@@ -1,0 +1,49 @@
+
+h1 {
+  color:cornsilk;
+  background-color: gold;
+  font-size: 40px;
+  font-family: 'Literata', serif;
+}
+
+h2 {
+  color:paleturquoise;
+  background-color: blue;
+  font-size: 30px;
+  font-family:'Literata', serif;
+}
+
+h3{
+  color:paleturquoise;
+  background-color: blue;
+  font-size: 30px;
+  font-family:'Literata', serif;
+}
+
+h4 {
+  color:paleturquoise;
+  background-color: blue;
+  font-size: 30px;
+  font-family:'Literata', serif;
+}
+
+ol {
+  color:black;
+  font-size: 16px;
+  font-family:'Literata', serif;
+}
+
+ul {
+  color:black;
+  font-size: 16px;
+  font-family:'Literata', serif;
+}
+
+/*.block {
+  float:left;
+  width: 33.3%
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-color: black
+  box-sizing:border-box;
+}*/
