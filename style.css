@@ -47,3 +47,25 @@ ul {
   border-color: black
   box-sizing:border-box;
 }*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+thanks {
+  display: none;
+  position: absolute;
+  border: 10px solid yellow;
+  background-color: yellow;
+  border-radius: 5px;
+  margin-left: 50px;
+  color: blue;
+  font-size: 20px;
+  font-family:'Literata', seri;
+}
+
+a:hover+thanks {
+  display: block;
+}
