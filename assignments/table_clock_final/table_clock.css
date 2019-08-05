@@ -1,0 +1,196 @@
+body {
+  background-color: black;
+}
+
+.button {
+  background-color: gainsboro;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 20px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  font-family: 'Bitter', serif;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 470px 470px 470px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 300px 10px 300px;
+  grid-gap: 50px;
+  background-color: black;
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.box {
+  background-color: white;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: black;
+  padding: 1em 1em;
+  margin: 10;
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+
+}
+
+.topic {
+  background-color: gainsboro;
+  color: black;
+  padding: 1em 1em;
+  border-radius: 5px;
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+}
+
+.list {
+  white-space: nowrap;
+  color: white;
+  font-size: 40px;
+  font-family: 'Bitter', serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+
+.steps {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-size: 90px;
+  text-align: left;
+  font-family: 'Bitter', serif;
+}
+
+number {
+  display: none;
+  border: 10px solid black;
+  background-color: black;
+  border-radius: 5px;
+  grid-auto-rows: 60px;
+  margin-left: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Bitter', serif;
+  position: absolute;
+}
+
+a:hover+number {
+  display: block;
+}
+
+.footnote {
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: gainsboro;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: black;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.materials {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overcover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.materials:hover .overcover {
+  width: 100%;
+}

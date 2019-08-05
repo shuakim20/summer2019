@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bitter', serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 100px 100px 800px 100px 100px 600px;
+  grid-gap: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.topic {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: black;
+  padding: 1em 1em;
+  margin: 10;
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+}
+
+p {
+  line-height: 26px;
+}
+
+.row {
+  background-color: gainsboro;
+  font-size: 25px;
+  color: black;
+  display: flex;
+  border-radius: 10px;
+  font-family: 'Bitter', serif;
+  padding: 20px;
+}
+
+.column {
+  background-color: gainsboro;
+  font-size: 25px;
+  color: black;
+  border-radius: 10px;
+  line-height: 50px;
+  font-family: 'Bitter', serif;
+  flex: 50%;
+  height: 400px;
+  padding: 20px;
+}
+
+
+
+.p-box {
+  background-color: salmon;
+  color: black;
+  padding: 50px;
+  height: 400px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Bitter', serif;
+  line-height: 40px;
+}
+
+.button {
+  background-color: gainsboro;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 20px 34px;
+  margin: 4px 2px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  }
